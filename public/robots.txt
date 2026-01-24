@@ -1,0 +1,10 @@
+# robots.txt for Therapy Website
+User-agent: *
+Allow: /
+
+# Sitemap location (update with your domain)
+Sitemap: https://yourwebsite.com/sitemap.xml
+
+# Disallow admin or private areas
+Disallow: /admin/
+Disallow: /private/
