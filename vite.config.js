@@ -9,12 +9,13 @@ export default defineConfig({
     react(),
     tailwindcss(),
     Sitemap({
-      hostname: 'https://yourwebsite.com', // Update with your domain
-      generateRobotsTxt: false, // We have a custom robots.txt
+      hostname: 'https://www.tracyadamslcsw.com',
+      generateRobotsTxt: false,
       routes: [
         '/',
         '/about',
         '/services',
+        '/emdr',
         '/contact',
       ],
     }),
