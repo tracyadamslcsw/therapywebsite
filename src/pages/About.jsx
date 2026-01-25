@@ -44,14 +44,13 @@ export function About() {
             </AnimatedSection>
 
             <AnimatedSection delay={0.2} direction="left">
-              {/* Photo Placeholder */}
-              <div className="aspect-[4/5] bg-cream-dark rounded-2xl flex items-center justify-center">
-                <div className="text-center p-8">
-                  <User className="w-24 h-24 text-charcoal-light/30 mx-auto mb-4" />
-                  <p className="text-charcoal-light/60">
-                    [Professional Photo Placeholder]
-                  </p>
-                </div>
+              {/* Professional Photo */}
+              <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-medium">
+                <img
+                  src="/tracy-adams.png"
+                  alt="Tracy Adams, LCSW - EMDR and IFS therapist in Denver"
+                  className="w-full h-full object-cover object-center"
+                />
               </div>
             </AnimatedSection>
           </div>
