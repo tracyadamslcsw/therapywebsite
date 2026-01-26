@@ -63,10 +63,10 @@ export function Contact() {
                         Call or Text
                       </p>
                       <a
-                        href="tel:+1XXXXXXXXXX"
+                        href="tel:+17192039670"
                         className="text-2xl md:text-3xl font-medium hover:text-white/90 transition-colors"
                       >
-                        (XXX) XXX-XXXX
+                        (719) 203-9670
                       </a>
                     </div>
                   </div>
@@ -159,10 +159,10 @@ export function Contact() {
                   <p className="text-sm text-charcoal-light text-center">
                     Or call{' '}
                     <a
-                      href="tel:+1XXXXXXXXXX"
+                      href="tel:+17192039670"
                       className="text-sage-dark font-medium hover:underline"
                     >
-                      (XXX) XXX-XXXX
+                      (719) 203-9670
                     </a>{' '}
                     to schedule
                   </p>

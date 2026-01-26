@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import {
   User,
   Brain,
+  Heart,
   Zap,
   Users,
   Building,
@@ -30,6 +31,26 @@ const services = [
     cta: 'Book a Consultation',
     ctaLink: '/contact',
     featured: true,
+  },
+  {
+    icon: Heart,
+    title: 'IFS Therapy (Internal Family Systems)',
+    description:
+      'Understand and heal your inner "parts" — the perfectionist, the people-pleaser, the inner critic — and reconnect with your authentic Self.',
+    longDescription:
+      'IFS is a transformative, evidence-based approach that helps you understand why you do what you do. Instead of fighting against your patterns, you learn to work with the different parts of yourself with curiosity and compassion.',
+    features: [
+      'Understand why you people-please, perfectionism, and self-criticize',
+      'Heal the wounded parts that drive anxious patterns',
+      'Access your calm, compassionate core Self',
+      'Build internal trust and self-leadership',
+      'Transform your inner critic into an inner ally',
+      'Break cycles passed down through generations',
+    ],
+    featuresTitle: 'IFS helps you:',
+    cta: 'Learn More About IFS',
+    ctaLink: '/contact',
+    highlight: 'terracotta',
   },
   {
     icon: Brain,

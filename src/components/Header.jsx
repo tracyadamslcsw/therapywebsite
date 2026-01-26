@@ -115,11 +115,11 @@ export function Header() {
                   Book Consultation
                 </Link>
                 <a
-                  href="tel:+1XXXXXXXXXX"
+                  href="tel:+17192039670"
                   className="flex items-center justify-center gap-2 py-3 text-charcoal hover:text-sage-dark transition-colors"
                 >
                   <Phone className="h-5 w-5" />
-                  <span>(XXX) XXX-XXXX</span>
+                  <span>(719) 203-9670</span>
                 </a>
               </div>
             </div>

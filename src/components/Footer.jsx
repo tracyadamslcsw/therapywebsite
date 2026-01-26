@@ -29,11 +29,11 @@ export function Footer() {
             </p>
             <div className="mt-6 space-y-3">
               <a
-                href="tel:+1XXXXXXXXXX"
+                href="tel:+17192039670"
                 className="flex items-center gap-3 text-lg font-medium text-white hover:text-sage-light transition-colors"
               >
                 <Phone className="h-5 w-5 text-sage-light" />
-                (XXX) XXX-XXXX
+                (719) 203-9670
               </a>
               <a
                 href="mailto:contact@tracyadamslcsw.com"
