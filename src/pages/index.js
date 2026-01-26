@@ -1,5 +1,7 @@
 export { Home } from './Home'
 export { About } from './About'
 export { Services } from './Services'
+export { IFS } from './IFS'
 export { EMDR } from './EMDR'
+export { Investment } from './Investment'
 export { Contact } from './Contact'

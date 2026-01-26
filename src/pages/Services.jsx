@@ -4,12 +4,10 @@ import {
   Brain,
   Heart,
   Zap,
-  Users,
   Building,
   ArrowRight,
   Check,
   Clock,
-  MapPin,
   CreditCard,
 } from 'lucide-react'
 import { SEO, AnimatedSection, Layout } from '../components'
@@ -49,7 +47,7 @@ const services = [
     ],
     featuresTitle: 'IFS helps you:',
     cta: 'Learn More About IFS',
-    ctaLink: '/contact',
+    ctaLink: '/ifs',
     highlight: 'terracotta',
   },
   {
@@ -85,18 +83,6 @@ const services = [
     cta: 'Inquire About Intensives',
     ctaLink: '/contact',
     highlight: 'terracotta',
-  },
-  {
-    icon: Users,
-    title: 'Group Programs',
-    description: 'Healing in community.',
-    longDescription:
-      "Small group programs for people working on similar challenges. The power of group work is realizing you're not alone — and learning from others' journeys.",
-    current: '"Breaking Free from People-Pleasing" — 8-week group intensive',
-    format: '90-minute weekly sessions | Virtual',
-    investment: '$1,500',
-    cta: 'Join the Waitlist',
-    ctaLink: '/contact',
   },
   {
     icon: Building,
@@ -286,57 +272,6 @@ export function Services() {
               </AnimatedSection>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Investment Section */}
-      <section className="section bg-cream">
-        <div className="container">
-          <AnimatedSection className="max-w-3xl mx-auto">
-            <h2 className="font-serif text-charcoal-dark text-center mb-12">
-              Investment
-            </h2>
-
-            <div className="bg-white rounded-2xl p-8 md:p-10 shadow-soft">
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                <div className="flex justify-between items-center py-3 border-b border-cream-dark">
-                  <span className="text-charcoal">Individual Therapy</span>
-                  <span className="font-medium text-charcoal-dark">
-                    Starting at $350/session
-                  </span>
-                </div>
-                <div className="flex justify-between items-center py-3 border-b border-cream-dark">
-                  <span className="text-charcoal">Therapy Intensives</span>
-                  <span className="font-medium text-charcoal-dark">
-                    Starting at $1,200
-                  </span>
-                </div>
-                <div className="flex justify-between items-center py-3 border-b border-cream-dark">
-                  <span className="text-charcoal">Group Programs</span>
-                  <span className="font-medium text-charcoal-dark">
-                    $1,500 (8 weeks)
-                  </span>
-                </div>
-                <div className="flex justify-between items-center py-3 border-b border-cream-dark">
-                  <span className="text-charcoal">Corporate Training</span>
-                  <span className="font-medium text-charcoal-dark">
-                    Custom pricing
-                  </span>
-                </div>
-              </div>
-
-              <div className="bg-cream rounded-xl p-6 space-y-3">
-                <p className="text-charcoal">
-                  <strong>Insurance:</strong> I am an out-of-network provider. I
-                  can provide a superbill for potential reimbursement.
-                </p>
-                <p className="text-charcoal-light">
-                  <strong>Reduced-fee spots:</strong> A limited number are
-                  available — if one opens, you can join the waitlist.
-                </p>
-              </div>
-            </div>
-          </AnimatedSection>
         </div>
       </section>
 
