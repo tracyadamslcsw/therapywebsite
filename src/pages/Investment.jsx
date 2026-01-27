@@ -3,7 +3,6 @@ import {
   CreditCard,
   Clock,
   FileText,
-  HelpCircle,
   Check,
   ArrowRight,
 } from 'lucide-react'
@@ -48,14 +47,9 @@ const faqs = [
       'Call the member services number on your insurance card and ask: "What are my out-of-network benefits for outpatient mental health services?" Ask about your deductible, reimbursement rate, and any session limits.',
   },
   {
-    question: 'Do you offer reduced-fee spots?',
-    answer:
-      'I reserve a limited number of reduced-fee spots for those who need them. These spots are offered on a case-by-case basis. If cost is a barrier, please mention this when we talk — I\'m happy to discuss options.',
-  },
-  {
     question: 'What is your cancellation policy?',
     answer:
-      'I require 24 hours notice for cancellations. Sessions cancelled with less than 24 hours notice or no-shows are charged the full session fee. I understand life happens — if you have an emergency, please reach out.',
+      'I require 48 hours notice for cancellations. Sessions cancelled with less than 48 hours notice or no-shows are charged the full session fee. I understand life happens — if you have an emergency, please reach out.',
   },
   {
     question: 'What forms of payment do you accept?',
@@ -198,25 +192,11 @@ export function Investment() {
                     </h3>
                   </div>
                   <p className="text-charcoal-light">
-                    24 hours notice required. Late cancellations and no-shows
+                    48 hours notice required. Late cancellations and no-shows
                     are charged the full session fee.
                   </p>
                 </div>
 
-                <div className="bg-white rounded-xl p-6">
-                  <div className="flex items-center gap-3 mb-4">
-                    <div className="w-10 h-10 rounded-lg bg-sage/10 flex items-center justify-center">
-                      <HelpCircle className="w-5 h-5 text-sage-dark" />
-                    </div>
-                    <h3 className="font-serif text-lg text-charcoal-dark">
-                      Reduced-Fee Spots
-                    </h3>
-                  </div>
-                  <p className="text-charcoal-light">
-                    Limited spots available for those who need them. Ask during
-                    your consultation.
-                  </p>
-                </div>
               </div>
             </AnimatedSection>
 

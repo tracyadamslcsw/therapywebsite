@@ -38,11 +38,11 @@ export function Footer() {
                 (719) 203-9670
               </a>
               <a
-                href="mailto:contact@tracyadamslcsw.com"
+                href="mailto:hello@tracyadamslcsw.com"
                 className="flex items-center gap-3 text-white/80 hover:text-sage-light transition-colors"
               >
                 <Mail className="h-5 w-5 text-sage-light" />
-                contact@tracyadamslcsw.com
+                hello@tracyadamslcsw.com
               </a>
             </div>
           </div>
@@ -74,7 +74,7 @@ export function Footer() {
             <ul className="space-y-2 text-white/70">
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 mt-1 text-sage-light flex-shrink-0" />
-                <span>Denver, Colorado (In-Person)</span>
+                <span>1563 Gilpin St, Denver, CO 80218</span>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 mt-1 text-sage-light flex-shrink-0" />

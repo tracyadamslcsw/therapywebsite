@@ -84,10 +84,10 @@ export function Contact() {
                     <div>
                       <p className="text-charcoal-light text-sm">Email</p>
                       <a
-                        href="mailto:contact@tracyadamslcsw.com"
+                        href="mailto:hello@tracyadamslcsw.com"
                         className="text-charcoal-dark font-medium hover:text-sage-dark transition-colors"
                       >
-                        contact@tracyadamslcsw.com
+                        hello@tracyadamslcsw.com
                       </a>
                     </div>
                   </div>
@@ -105,7 +105,10 @@ export function Contact() {
                         In-Person Sessions
                       </p>
                       <p className="text-charcoal-light">
-                        Denver, Colorado (Mondays & Wednesdays)
+                        1563 Gilpin St, Denver, CO 80218
+                      </p>
+                      <p className="text-charcoal-light text-sm">
+                        Mondays & Wednesdays
                       </p>
                     </div>
                   </div>
