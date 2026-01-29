@@ -144,32 +144,102 @@ export function Contact() {
                     whether we'd be a good fit. No pressure, no commitment.
                   </p>
 
-                  {/* Contact Options */}
-                  <div className="space-y-4">
-                    <a
-                      href="tel:+17192039670"
-                      className="flex items-center justify-center gap-3 bg-sage text-white rounded-xl p-5 hover:bg-sage-dark transition-colors"
-                    >
-                      <Phone className="w-6 h-6" />
-                      <span className="text-lg font-medium">Call (719) 203-9670</span>
-                    </a>
+                  {/* Contact Form */}
+                  <form
+                    name="consultation"
+                    method="POST"
+                    data-netlify="true"
+                    netlify-honeypot="bot-field"
+                    className="space-y-4"
+                  >
+                    <input type="hidden" name="form-name" value="consultation" />
+                    <p className="hidden">
+                      <label>
+                        Don't fill this out: <input name="bot-field" />
+                      </label>
+                    </p>
 
-                    <a
-                      href="sms:+17192039670"
-                      className="flex items-center justify-center gap-3 bg-white border-2 border-sage text-sage-dark rounded-xl p-5 hover:bg-sage/5 transition-colors"
-                    >
-                      <MessageCircle className="w-6 h-6" />
-                      <span className="text-lg font-medium">Text (719) 203-9670</span>
-                    </a>
+                    <div>
+                      <label htmlFor="name" className="block text-sm font-medium text-charcoal-dark mb-2">
+                        Name *
+                      </label>
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required
+                        className="w-full px-4 py-3 rounded-lg border border-charcoal/20 focus:border-sage focus:ring-2 focus:ring-sage/20 outline-none transition-colors"
+                        placeholder="Your name"
+                      />
+                    </div>
 
-                    <a
-                      href="mailto:hello@tracyadamslcsw.com?subject=Consultation%20Request"
-                      className="flex items-center justify-center gap-3 bg-white border-2 border-terracotta text-terracotta-dark rounded-xl p-5 hover:bg-terracotta/5 transition-colors"
+                    <div>
+                      <label htmlFor="email" className="block text-sm font-medium text-charcoal-dark mb-2">
+                        Email *
+                      </label>
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        className="w-full px-4 py-3 rounded-lg border border-charcoal/20 focus:border-sage focus:ring-2 focus:ring-sage/20 outline-none transition-colors"
+                        placeholder="your@email.com"
+                      />
+                    </div>
+
+                    <div>
+                      <label htmlFor="phone" className="block text-sm font-medium text-charcoal-dark mb-2">
+                        Phone
+                      </label>
+                      <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        className="w-full px-4 py-3 rounded-lg border border-charcoal/20 focus:border-sage focus:ring-2 focus:ring-sage/20 outline-none transition-colors"
+                        placeholder="(555) 555-5555"
+                      />
+                    </div>
+
+                    <div>
+                      <label htmlFor="message" className="block text-sm font-medium text-charcoal-dark mb-2">
+                        What brings you to therapy? *
+                      </label>
+                      <textarea
+                        id="message"
+                        name="message"
+                        required
+                        rows={4}
+                        className="w-full px-4 py-3 rounded-lg border border-charcoal/20 focus:border-sage focus:ring-2 focus:ring-sage/20 outline-none transition-colors resize-none"
+                        placeholder="Tell me a little about what's going on..."
+                      />
+                    </div>
+
+                    <div>
+                      <label htmlFor="state" className="block text-sm font-medium text-charcoal-dark mb-2">
+                        State of Residence *
+                      </label>
+                      <select
+                        id="state"
+                        name="state"
+                        required
+                        className="w-full px-4 py-3 rounded-lg border border-charcoal/20 focus:border-sage focus:ring-2 focus:ring-sage/20 outline-none transition-colors bg-white"
+                      >
+                        <option value="">Select your state</option>
+                        <option value="California">California</option>
+                        <option value="Colorado">Colorado</option>
+                        <option value="Florida">Florida</option>
+                        <option value="Other">Other (I can provide referrals)</option>
+                      </select>
+                    </div>
+
+                    <button
+                      type="submit"
+                      className="w-full btn btn-primary justify-center mt-6"
                     >
-                      <Mail className="w-6 h-6" />
-                      <span className="text-lg font-medium">Email Me</span>
-                    </a>
-                  </div>
+                      Request Consultation
+                      <ArrowRight className="w-4 h-4 ml-2" />
+                    </button>
+                  </form>
 
                   <p className="text-sm text-charcoal-light text-center mt-6">
                     I typically respond within 24 hours
