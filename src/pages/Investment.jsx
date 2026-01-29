@@ -11,7 +11,7 @@ import { SEO, AnimatedSection, Layout } from '../components'
 const services = [
   {
     name: 'Individual Therapy',
-    price: '$350',
+    price: '$275',
     unit: 'per session',
     description: '50-minute sessions, in-person or telehealth',
     featured: true,
@@ -63,7 +63,7 @@ export function Investment() {
     <Layout>
       <SEO
         title="Investment & Fees | Tracy Adams, LCSW"
-        description="Therapy investment and fees for Tracy Adams, LCSW. Individual therapy starting at $350/session. Information about insurance, superbills, and payment options."
+        description="Therapy investment and fees for Tracy Adams, LCSW. Individual therapy starting at $275/session. Information about insurance, superbills, and payment options."
         keywords="therapy cost Denver, EMDR therapy fees, IFS therapy cost, therapy investment, out of network therapy"
       />
 

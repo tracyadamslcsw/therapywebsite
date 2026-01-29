@@ -12,10 +12,11 @@ import { SEO, AnimatedSection, Layout } from '../components'
 const credentials = [
   'Licensed Clinical Social Worker (LCSW)',
   'Licensed in Colorado, California, and Florida',
-  'EMDR Certified Therapist',
+  'EMDR Level 1 Trained',
   'IFS Level 1 Trained (Internal Family Systems Institute)',
   'Speaker & Wellness Expert, The Rise Journey',
-  '10+ years in the mental health field',
+  'Wellness Speaker for Marino Wellness',
+  '15+ years in the mental health field',
 ]
 
 export function About() {

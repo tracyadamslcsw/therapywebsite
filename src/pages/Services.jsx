@@ -25,7 +25,7 @@ const services = [
       'Build a relationship with your authentic Self',
     ],
     format: '50-minute sessions | In-person (Denver) or Telehealth (CA, CO, FL)',
-    investment: 'Starting at $350/session',
+    investment: 'Starting at $275/session',
     cta: 'Book a Consultation',
     ctaLink: '/contact',
     featured: true,
@@ -106,7 +106,7 @@ export function Services() {
     <Layout>
       <SEO
         title="Services | Tracy Adams, LCSW"
-        description="EMDR therapy, IFS therapy, therapy intensives, and group programs for high-achieving women. Individual therapy starting at $350/session."
+        description="EMDR therapy, IFS therapy, therapy intensives, and corporate training for high-achieving women. Individual therapy starting at $275/session."
         keywords="EMDR therapy services, IFS therapy, therapy intensives, group therapy, corporate wellness training Denver"
       />
 
