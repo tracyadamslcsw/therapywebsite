@@ -11,13 +11,10 @@ import { SEO, AnimatedSection, Layout } from '../components'
 
 const credentials = [
   'Licensed Clinical Social Worker (LCSW)',
-  'California LCSW #84673',
-  'Colorado CSW #09928191',
-  'Licensed in Florida',
+  'CA LCSW #84673 | CO CSW #09928191 | FL Telehealth Provider #TPSW2018',
   'EMDR Level 1 Trained',
   'IFS Level 1 Trained (Internal Family Systems Institute)',
-  'Speaker & Wellness Expert, The Rise Journey',
-  'Wellness Speaker for Marino Wellness',
+  'Speaker & Wellness Expert, The Rise Journey and Marino Wellness',
   '15+ years in the mental health field',
 ]
 
