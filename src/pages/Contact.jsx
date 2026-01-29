@@ -144,32 +144,35 @@ export function Contact() {
                     whether we'd be a good fit. No pressure, no commitment.
                   </p>
 
-                  {/* Booking Button */}
-                  <div className="bg-white rounded-xl p-8 text-center mb-6">
-                    <Calendar className="w-12 h-12 text-sage mx-auto mb-4" />
-                    <p className="text-charcoal mb-6">
-                      Click below to view my availability and book your free consultation.
-                    </p>
+                  {/* Contact Options */}
+                  <div className="space-y-4">
                     <a
-                      href="https://tracyadamslcsw.sessionshealth.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn btn-primary inline-flex items-center gap-2"
+                      href="tel:+17192039670"
+                      className="flex items-center justify-center gap-3 bg-sage text-white rounded-xl p-5 hover:bg-sage-dark transition-colors"
                     >
-                      Schedule Your Consultation
-                      <ArrowRight className="w-4 h-4" />
+                      <Phone className="w-6 h-6" />
+                      <span className="text-lg font-medium">Call (719) 203-9670</span>
+                    </a>
+
+                    <a
+                      href="sms:+17192039670"
+                      className="flex items-center justify-center gap-3 bg-white border-2 border-sage text-sage-dark rounded-xl p-5 hover:bg-sage/5 transition-colors"
+                    >
+                      <MessageCircle className="w-6 h-6" />
+                      <span className="text-lg font-medium">Text (719) 203-9670</span>
+                    </a>
+
+                    <a
+                      href="mailto:hello@tracyadamslcsw.com?subject=Consultation%20Request"
+                      className="flex items-center justify-center gap-3 bg-white border-2 border-terracotta text-terracotta-dark rounded-xl p-5 hover:bg-terracotta/5 transition-colors"
+                    >
+                      <Mail className="w-6 h-6" />
+                      <span className="text-lg font-medium">Email Me</span>
                     </a>
                   </div>
 
-                  <p className="text-sm text-charcoal-light text-center">
-                    Or call{' '}
-                    <a
-                      href="tel:+17192039670"
-                      className="text-sage-dark font-medium hover:underline"
-                    >
-                      (719) 203-9670
-                    </a>{' '}
-                    to schedule
+                  <p className="text-sm text-charcoal-light text-center mt-6">
+                    I typically respond within 24 hours
                   </p>
                 </div>
               </AnimatedSection>
