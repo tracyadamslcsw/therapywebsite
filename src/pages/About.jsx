@@ -11,7 +11,9 @@ import { SEO, AnimatedSection, Layout } from '../components'
 
 const credentials = [
   'Licensed Clinical Social Worker (LCSW)',
-  'Licensed in Colorado, California, and Florida',
+  'California LCSW #84673',
+  'Colorado CSW #09928191',
+  'Licensed in Florida',
   'EMDR Level 1 Trained',
   'IFS Level 1 Trained (Internal Family Systems Institute)',
   'Speaker & Wellness Expert, The Rise Journey',
