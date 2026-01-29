@@ -144,14 +144,16 @@ export function Contact() {
                     whether we'd be a good fit. No pressure, no commitment.
                   </p>
 
-                  {/* Booking Widget Placeholder */}
+                  {/* Booking Button */}
                   <div className="bg-white rounded-xl p-8 text-center mb-6">
-                    <MessageCircle className="w-12 h-12 text-charcoal-light/30 mx-auto mb-4" />
-                    <p className="text-charcoal-light mb-4">
-                      [Booking Widget Placeholder]
+                    <Calendar className="w-12 h-12 text-sage mx-auto mb-4" />
+                    <p className="text-charcoal mb-6">
+                      Click below to view my availability and book your free consultation.
                     </p>
                     <a
-                      href="#"
+                      href="https://tracyadamslcsw.sessionshealth.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="btn btn-primary inline-flex items-center gap-2"
                     >
                       Schedule Your Consultation
