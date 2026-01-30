@@ -49,8 +49,8 @@ export function Home() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-xl md:text-2xl text-charcoal-light mb-10 leading-relaxed"
             >
-              EMDR & IFS therapy for high-achieving men and women who are exhausted from
-              managing everyone else's emotions.
+              EMDR & IFS therapy for high-achieving men and women who are successful
+              on paper but exhausted inside.
             </motion.p>
 
             <motion.div
