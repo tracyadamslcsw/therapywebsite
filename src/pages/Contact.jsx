@@ -29,8 +29,13 @@ export function Contact() {
       />
 
       {/* Hero Section */}
-      <section className="section bg-gradient-to-b from-cream to-white">
-        <div className="container">
+      <section className="section relative overflow-hidden">
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: 'url(/window-ivy.jpg)' }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-cream/95 via-cream/90 to-white/95" />
+        <div className="container relative z-10">
           <AnimatedSection className="text-center max-w-2xl mx-auto">
             <p className="text-sage-dark font-medium uppercase tracking-wide mb-4">
               Contact

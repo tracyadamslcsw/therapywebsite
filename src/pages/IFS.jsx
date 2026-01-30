@@ -109,8 +109,13 @@ export function IFS() {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="section bg-gradient-to-b from-cream to-terracotta/5">
-        <div className="container">
+      <section className="section relative overflow-hidden">
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: 'url(/winding-path.jpg)' }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-cream/95 via-cream/90 to-cream/75" />
+        <div className="container relative z-10">
           <AnimatedSection className="max-w-3xl">
             <p className="text-terracotta-dark font-medium uppercase tracking-wide mb-4">
               IFS Therapy

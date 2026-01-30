@@ -57,8 +57,18 @@ export function About() {
         </div>
       </section>
 
+      {/* Decorative Image Banner */}
+      <section className="h-64 md:h-80 relative overflow-hidden">
+        <img
+          src="/doorway.jpg"
+          alt="Warm doorway with light"
+          className="w-full h-full object-cover object-center"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-blush-light/50 to-white/50" />
+      </section>
+
       {/* Main Story Section */}
-      <section className="section bg-white">
+      <section className="section bg-white pt-12">
         <div className="container">
           <div className="max-w-3xl mx-auto">
             <AnimatedSection>

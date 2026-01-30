@@ -22,10 +22,13 @@ export function Home() {
       />
 
       {/* Hero Section */}
-      <section className="relative min-h-[90vh] flex items-center bg-gradient-to-b from-cream to-blush-light overflow-hidden">
-        {/* Decorative Elements */}
-        <div className="absolute top-20 right-0 w-72 h-72 bg-sage/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-20 left-0 w-96 h-96 bg-terracotta/10 rounded-full blur-3xl" />
+      <section className="relative min-h-[90vh] flex items-center overflow-hidden">
+        {/* Background Image */}
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: 'url(/path-trees.jpg)' }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-cream/95 via-cream/85 to-cream/70" />
 
         <div className="container relative z-10">
           <div className="max-w-3xl">

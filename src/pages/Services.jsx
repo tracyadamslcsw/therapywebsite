@@ -111,8 +111,13 @@ export function Services() {
       />
 
       {/* Hero Section */}
-      <section className="section bg-gradient-to-b from-cream to-white">
-        <div className="container">
+      <section className="section relative overflow-hidden">
+        <div
+          className="absolute inset-0 bg-cover bg-bottom bg-no-repeat"
+          style={{ backgroundImage: 'url(/pampas-grass.jpg)' }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-cream/95 via-cream/90 to-cream/80" />
+        <div className="container relative z-10">
           <AnimatedSection className="max-w-3xl">
             <p className="text-sage-dark font-medium uppercase tracking-wide mb-4">
               Services
