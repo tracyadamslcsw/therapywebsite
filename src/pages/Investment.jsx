@@ -18,8 +18,8 @@ const services = [
   },
   {
     name: 'Therapy Intensives',
-    price: '$1,200',
-    unit: 'starting at',
+    price: 'Starting at',
+    unit: '$1,200',
     description: 'Half-day extended EMDR or IFS sessions for accelerated healing',
   },
   {

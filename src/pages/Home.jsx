@@ -6,7 +6,6 @@ import {
   Heart,
   Sparkles,
   Check,
-  Quote,
   MapPin,
   Award,
 } from 'lucide-react'
@@ -250,24 +249,6 @@ export function Home() {
         </div>
       </section>
 
-      {/* Testimonial Section */}
-      <section className="section bg-blush-light">
-        <div className="container">
-          <AnimatedSection className="max-w-3xl mx-auto text-center">
-            <Quote className="w-12 h-12 text-terracotta mx-auto mb-8" />
-            <blockquote className="font-serif text-2xl md:text-3xl text-charcoal-dark italic leading-relaxed mb-8">
-              "Tracy helped me understand patterns I'd had for decades. For the
-              first time, I feel like I can actually change."
-            </blockquote>
-            <cite className="text-charcoal-light not-italic">
-              — Future Client
-            </cite>
-            <p className="text-sm text-charcoal-light/60 mt-2">
-              [Placeholder for future testimonials]
-            </p>
-          </AnimatedSection>
-        </div>
-      </section>
 
       {/* Final CTA Section */}
       <section className="section bg-sage text-white">
