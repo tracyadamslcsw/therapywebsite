@@ -56,7 +56,7 @@ const faqs = [
   {
     question: 'Is IFS evidence-based?',
     answer:
-      'Yes. IFS is recognized as an evidence-based practice by SAMHSA\'s National Registry of Evidence-based Programs and Practices. Research has shown its effectiveness for trauma, depression, anxiety, and other conditions.',
+      'Yes. IFS is recognized as an evidence-based practice by SAMHSA\'s National Registry of Evidence-based Programs and Practices. Research has shown its effectiveness for trauma, depression, anxiety, and other conditions. You can find more research and resources at ifs-institute.com.',
   },
   {
     question: 'How is IFS different from other therapies?',
@@ -137,9 +137,19 @@ export function IFS() {
               <div className="text-lg text-charcoal leading-relaxed space-y-6">
                 <p>
                   <strong>IFS (Internal Family Systems)</strong> is a
-                  transformative, evidence-based approach to therapy that helps
-                  you understand and heal by working with different "parts" of
-                  yourself.
+                  transformative, evidence-based approach to therapy developed by
+                  Dr. Richard Schwartz that helps you understand and heal by
+                  working with different "parts" of yourself. I'm a trained IFS
+                  practitioner listed in the{' '}
+                  <a
+                    href="https://ifs-institute.com/practitioners/all/186957"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-terracotta-dark hover:text-terracotta underline"
+                  >
+                    IFS Institute Directory
+                  </a>
+                  .
                 </p>
 
                 <div className="bg-cream rounded-xl p-6 my-8">
