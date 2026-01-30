@@ -69,11 +69,11 @@ const services = [
   {
     icon: Zap,
     title: 'Therapy Intensives',
-    description: 'Make significant progress in a single day.',
+    description: 'Half-day extended EMDR or IFS sessions for accelerated healing.',
     longDescription:
       'For clients who want accelerated healing without months of weekly sessions.',
     features: [
-      '3-4 hour extended EMDR session',
+      '3-4 hour extended EMDR or IFS session',
       'Pre-session preparation call',
       'Post-session integration call',
       'Personalized resources',
