@@ -23,7 +23,7 @@ export function About() {
     <Layout>
       <SEO
         title="About Tracy Adams | EMDR Therapist Denver"
-        description="Meet Tracy Adams, LCSW - a people-pleaser and perfectionist in recovery. EMDR and IFS therapy for high-achieving women in Denver, Colorado."
+        description="Meet Tracy Adams, LCSW - a people-pleaser and perfectionist in recovery. EMDR and IFS therapy for high-achieving men and women in Denver, Colorado."
         keywords="Tracy Adams LCSW, EMDR therapist Denver, IFS therapist Colorado, about Tracy Adams, Denver therapist"
       />
 
@@ -60,11 +60,11 @@ export function About() {
       {/* Decorative Image Banner */}
       <section className="h-64 md:h-80 relative overflow-hidden">
         <img
-          src="/doorway.jpg"
-          alt="Warm doorway with light"
-          className="w-full h-full object-cover object-center"
+          src="/path-trees.jpg"
+          alt="Peaceful tree-lined path"
+          className="w-full h-full object-cover object-bottom"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-blush-light/50 to-white/50" />
+        <div className="absolute inset-0 bg-gradient-to-b from-blush-light/30 to-white/30" />
       </section>
 
       {/* Main Story Section */}

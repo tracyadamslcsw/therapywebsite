@@ -17,7 +17,7 @@ export function Home() {
     <Layout>
       <SEO
         title="Tracy Adams, LCSW | EMDR Therapist Denver"
-        description="EMDR and IFS therapy for high-achieving women in Denver, Colorado, California, and Florida. Stop people-pleasing. Start living. Book a free consultation."
+        description="EMDR and IFS therapy for high-achieving men and women in Denver, Colorado, California, and Florida. Stop people-pleasing. Start living. Book a free consultation."
         keywords="EMDR therapy Denver, EMDR therapist Colorado, IFS therapy, people pleasing therapy, anxiety therapist Denver, trauma therapy, perfectionism therapy"
       />
 
@@ -49,7 +49,7 @@ export function Home() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-xl md:text-2xl text-charcoal-light mb-10 leading-relaxed"
             >
-              EMDR & IFS therapy for high-achieving women who are exhausted from
+              EMDR & IFS therapy for high-achieving men and women who are exhausted from
               managing everyone else's emotions.
             </motion.p>
 
@@ -180,7 +180,7 @@ export function Home() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <AnimatedSection>
               <h2 className="font-serif text-charcoal-dark mb-8">
-                I work with high-achieving women who are tired of...
+                I work with high-achieving men and women who are tired of...
               </h2>
               <ul className="space-y-4">
                 {[

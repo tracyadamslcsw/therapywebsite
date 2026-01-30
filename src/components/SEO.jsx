@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet-async'
 
 export function SEO({
   title = 'Tracy Adams, LCSW',
-  description = 'EMDR and IFS therapy for high-achieving women in Denver, Colorado, California, and Florida. Stop people-pleasing. Start living.',
+  description = 'EMDR and IFS therapy for high-achieving men and women in Denver, Colorado, California, and Florida. Stop people-pleasing. Start living.',
   keywords = 'EMDR therapy Denver, EMDR therapist Colorado, IFS therapy, people pleasing therapy, anxiety therapist Denver',
   image = '/og-image.jpg',
   url,

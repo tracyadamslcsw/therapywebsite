@@ -17,7 +17,7 @@ const services = [
     icon: User,
     title: 'Individual Therapy',
     description:
-      'For high-achieving women ready to stop people-pleasing and start living authentically.',
+      'For high-achieving men and women ready to stop people-pleasing and start living authentically.',
     features: [
       'Process trauma and stuck memories',
       'Understand your "parts" (the perfectionist, the people-pleaser, the critic)',
@@ -106,7 +106,7 @@ export function Services() {
     <Layout>
       <SEO
         title="Services | Tracy Adams, LCSW"
-        description="EMDR therapy, IFS therapy, therapy intensives, and corporate training for high-achieving women. Individual therapy starting at $275/session."
+        description="EMDR therapy, IFS therapy, therapy intensives, and corporate training for high-achieving men and women. Individual therapy starting at $275/session."
         keywords="EMDR therapy services, IFS therapy, therapy intensives, group therapy, corporate wellness training Denver"
       />
 

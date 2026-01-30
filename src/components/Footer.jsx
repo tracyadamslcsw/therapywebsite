@@ -26,7 +26,7 @@ export function Footer() {
               Tracy Adams, LCSW
             </Link>
             <p className="mt-4 text-white/70 max-w-md">
-              EMDR and IFS therapy for high-achieving women ready to stop
+              EMDR and IFS therapy for high-achieving men and women ready to stop
               people-pleasing and start living authentically.
             </p>
             <div className="mt-6 space-y-3">
