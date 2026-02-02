@@ -151,15 +151,26 @@ export function About() {
                     </li>
                   ))}
                 </ul>
-                <a
-                  href="https://www.psychologytoday.com/profile/966823"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 mt-6 text-sage-dark font-medium hover:text-sage transition-colors"
-                >
-                  View my Psychology Today profile
-                  <ExternalLink className="w-4 h-4" />
-                </a>
+                <div className="flex flex-wrap gap-x-6 gap-y-3 mt-6">
+                  <a
+                    href="https://www.psychologytoday.com/profile/966823"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-sage-dark font-medium hover:text-sage transition-colors"
+                  >
+                    Psychology Today
+                    <ExternalLink className="w-4 h-4" />
+                  </a>
+                  <a
+                    href="https://www.therisejourney.com/team/tracy-adams"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-sage-dark font-medium hover:text-sage transition-colors"
+                  >
+                    The Rise Journey
+                    <ExternalLink className="w-4 h-4" />
+                  </a>
+                </div>
               </div>
             </AnimatedSection>
 

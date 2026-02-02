@@ -53,6 +53,15 @@ export function Footer() {
                 <ExternalLink className="h-5 w-5 text-sage-light" />
                 Psychology Today Profile
               </a>
+              <a
+                href="https://www.therisejourney.com/team/tracy-adams"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 text-white/80 hover:text-sage-light transition-colors"
+              >
+                <ExternalLink className="h-5 w-5 text-sage-light" />
+                The Rise Journey
+              </a>
             </div>
           </div>
 
