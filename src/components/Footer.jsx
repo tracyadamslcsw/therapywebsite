@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Phone, Mail, MapPin } from 'lucide-react'
+import { Phone, Mail, MapPin, ExternalLink } from 'lucide-react'
 
 const quickLinks = [
   { name: 'About', href: '/about' },
@@ -43,6 +43,15 @@ export function Footer() {
               >
                 <Mail className="h-5 w-5 text-sage-light" />
                 hello@tracyadamslcsw.com
+              </a>
+              <a
+                href="https://www.psychologytoday.com/profile/966823"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 text-white/80 hover:text-sage-light transition-colors"
+              >
+                <ExternalLink className="h-5 w-5 text-sage-light" />
+                Psychology Today Profile
               </a>
             </div>
           </div>

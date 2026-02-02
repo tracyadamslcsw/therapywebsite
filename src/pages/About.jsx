@@ -6,6 +6,7 @@ import {
   Clock,
   CheckCircle,
   User,
+  ExternalLink,
 } from 'lucide-react'
 import { SEO, AnimatedSection, Layout } from '../components'
 
@@ -150,6 +151,15 @@ export function About() {
                     </li>
                   ))}
                 </ul>
+                <a
+                  href="https://www.psychologytoday.com/profile/966823"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 mt-6 text-sage-dark font-medium hover:text-sage transition-colors"
+                >
+                  View my Psychology Today profile
+                  <ExternalLink className="w-4 h-4" />
+                </a>
               </div>
             </AnimatedSection>
 
