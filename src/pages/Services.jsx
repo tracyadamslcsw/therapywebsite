@@ -69,17 +69,19 @@ const services = [
   {
     icon: Zap,
     title: 'Therapy Intensives',
-    description: 'Half-day extended EMDR or IFS sessions for accelerated healing.',
+    description: 'Extended EMDR or IFS sessions for accelerated healing.',
     longDescription:
       'For clients who want accelerated healing without months of weekly sessions.',
     features: [
-      '3-4 hour extended EMDR or IFS session',
+      'Half-day intensive (3 hours) — $800',
+      'Full-day intensive (6 hours) — $1,600',
+      '2-day intensive (12 hours) — $3,200',
       'Pre-session preparation call',
       'Post-session integration call',
       'Personalized resources',
     ],
-    format: 'Half-day intensive',
-    investment: 'Starting at $1,200',
+    format: 'Half-day, full-day, or 2-day options',
+    investment: 'Starting at $800',
     cta: 'Inquire About Intensives',
     ctaLink: '/contact',
     highlight: 'terracotta',
