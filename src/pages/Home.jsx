@@ -80,17 +80,15 @@ export function Home() {
 
             <div className="text-lg text-charcoal leading-relaxed space-y-6 text-left md:text-center">
               <p>
-                You can say no in the office but not in relationships.
-              </p>
-              <p>
                 You were the kid who held it together when things fell apart.
                 The one who managed other people's emotions before you were old
                 enough to understand your own.
               </p>
               <p>
                 Now you're successful by every external measure — but inside,
-                you're <em>exhausted</em>. You can't say no. You feel like a
-                fraud. And traditional therapy hasn't really changed anything.
+                you're <em>exhausted</em>. You can say no in the office but not
+                in relationships. You feel like a fraud. And traditional therapy
+                hasn't really changed anything.
               </p>
               <p className="font-serif text-2xl text-sage-dark italic pt-4">
                 There's a different way forward.
