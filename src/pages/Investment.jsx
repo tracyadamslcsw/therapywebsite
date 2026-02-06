@@ -19,8 +19,8 @@ const services = [
   {
     name: 'Therapy Intensives',
     price: 'Starting at',
-    unit: '$800',
-    description: 'Half-day (3hrs) $800 | Full-day (6hrs) $1,600 | 2-day (12hrs) $3,200',
+    unit: '$900',
+    description: 'Half-day (3hrs) $900 | Full-day (6hrs) $1,800',
   },
   {
     name: 'Corporate Training',
