@@ -75,7 +75,7 @@ export function Home() {
         <div className="container">
           <AnimatedSection className="max-w-3xl mx-auto text-center">
             <h2 className="font-serif text-charcoal-dark mb-8">
-              Did you grow up as "the responsible one"?
+              You can say no in the boardroom but not in relationships.
             </h2>
 
             <div className="text-lg text-charcoal leading-relaxed space-y-6 text-left md:text-center">
