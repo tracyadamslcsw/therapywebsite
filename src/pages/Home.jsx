@@ -75,10 +75,13 @@ export function Home() {
         <div className="container">
           <AnimatedSection className="max-w-3xl mx-auto text-center">
             <h2 className="font-serif text-charcoal-dark mb-8">
-              You can say no in the boardroom but not in relationships.
+              Did you grow up as "the responsible one"?
             </h2>
 
             <div className="text-lg text-charcoal leading-relaxed space-y-6 text-left md:text-center">
+              <p>
+                You can say no in the office but not in relationships.
+              </p>
               <p>
                 You were the kid who held it together when things fell apart.
                 The one who managed other people's emotions before you were old
