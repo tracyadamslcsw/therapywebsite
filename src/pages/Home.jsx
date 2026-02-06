@@ -190,7 +190,7 @@ export function Home() {
                   'Never feeling "good enough" despite their success',
                   "Anxiety that won't respond to traditional approaches",
                   "Knowing what to do but not being able to change",
-                  "Having boundaries at work but not with family or partners",
+                  "Not having healthy boundaries",
                 ].map((item, index) => (
                   <li
                     key={index}
