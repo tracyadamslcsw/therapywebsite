@@ -13,7 +13,7 @@ import { SEO, AnimatedSection, Layout } from '../components'
 const credentials = [
   'Licensed Clinical Social Worker (LCSW)',
   'CA LCSW #84673 | CO CSW #09928191 | FL Telehealth Provider #TPSW2018',
-  'EMDR Level 1 Trained',
+  'EMDR Trained (EMDRIA Member)',
   'IFS Level 1 Trained (Internal Family Systems Institute)',
   'Speaker & Wellness Expert, The Rise Journey and Marino Wellness',
   '15+ years in the mental health field',
@@ -168,6 +168,15 @@ export function About() {
                     className="inline-flex items-center gap-2 text-sage-dark font-medium hover:text-sage transition-colors"
                   >
                     The Rise Journey
+                    <ExternalLink className="w-4 h-4" />
+                  </a>
+                  <a
+                    href="https://www.emdria.org/directory/people/tracy-adams/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-sage-dark font-medium hover:text-sage transition-colors"
+                  >
+                    EMDRIA Directory
                     <ExternalLink className="w-4 h-4" />
                   </a>
                 </div>
