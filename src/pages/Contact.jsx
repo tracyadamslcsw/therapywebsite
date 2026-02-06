@@ -290,15 +290,15 @@ export function Contact() {
         <div className="container">
           <div className="max-w-3xl mx-auto">
             <AnimatedSection>
-              <div className="bg-charcoal-dark rounded-2xl p-8 md:p-10 text-white">
-                <h2 className="font-serif text-white mb-6">For Referrers</h2>
+              <div className="bg-chocolate rounded-2xl p-8 md:p-10 text-charcoal">
+                <h2 className="font-serif text-charcoal-dark mb-6">For Referrers</h2>
 
-                <p className="text-white/80 mb-6">
+                <p className="text-charcoal mb-6">
                   If you're a therapist, physician, or other professional
                   looking to refer a client:
                 </p>
 
-                <p className="text-white/90 mb-4">
+                <p className="text-charcoal mb-4">
                   I specialize in EMDR and IFS for adults struggling with:
                 </p>
 
@@ -309,24 +309,24 @@ export function Contact() {
                     'Grief and life transitions',
                   ].map((item, index) => (
                     <li key={index} className="flex items-center gap-3">
-                      <CheckCircle className="w-5 h-5 text-sage-light" />
-                      <span className="text-white/90">{item}</span>
+                      <CheckCircle className="w-5 h-5 text-sage-dark" />
+                      <span className="text-charcoal">{item}</span>
                     </li>
                   ))}
                 </ul>
 
-                <div className="bg-white/10 rounded-xl p-6 mb-6">
-                  <p className="text-white font-medium">
+                <div className="bg-charcoal/10 rounded-xl p-6 mb-6">
+                  <p className="text-charcoal-dark font-medium">
                     48-Hour Consultation Promise
                   </p>
-                  <p className="text-white/70 text-sm mt-1">
+                  <p className="text-charcoal-light text-sm mt-1">
                     Your referrals will hear back within 2 business days.
                   </p>
                 </div>
 
                 <a
                   href="#"
-                  className="btn bg-white text-charcoal-dark hover:bg-cream inline-flex items-center gap-2"
+                  className="btn bg-charcoal-dark text-white hover:bg-charcoal inline-flex items-center gap-2"
                 >
                   <Download className="w-4 h-4" />
                   Download Referral Information
