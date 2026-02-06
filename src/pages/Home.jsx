@@ -216,36 +216,36 @@ export function Home() {
       </section>
 
       {/* Credentials Bar */}
-      <section className="py-12 bg-charcoal-dark text-white">
+      <section className="py-12 bg-chocolate text-charcoal-dark">
         <div className="container">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <AnimatedSection delay={0.1}>
               <div className="flex flex-col items-center">
-                <MapPin className="w-6 h-6 text-sage-light mb-3" />
-                <p className="text-sm text-white/60 uppercase tracking-wide mb-1">
+                <MapPin className="w-6 h-6 text-sage-dark mb-3" />
+                <p className="text-sm text-charcoal-dark uppercase tracking-wide mb-1">
                   Licensed In
                 </p>
-                <p className="font-medium">Colorado | California | Florida</p>
+                <p className="font-medium text-charcoal-dark">Colorado | California | Florida</p>
               </div>
             </AnimatedSection>
 
             <AnimatedSection delay={0.2}>
               <div className="flex flex-col items-center">
-                <Brain className="w-6 h-6 text-sage-light mb-3" />
-                <p className="text-sm text-white/60 uppercase tracking-wide mb-1">
+                <Brain className="w-6 h-6 text-sage-dark mb-3" />
+                <p className="text-sm text-charcoal-dark uppercase tracking-wide mb-1">
                   Trained In
                 </p>
-                <p className="font-medium">EMDR | IFS (Internal Family Systems)</p>
+                <p className="font-medium text-charcoal-dark">EMDR | IFS (Internal Family Systems)</p>
               </div>
             </AnimatedSection>
 
             <AnimatedSection delay={0.3}>
               <div className="flex flex-col items-center">
-                <Award className="w-6 h-6 text-sage-light mb-3" />
-                <p className="text-sm text-white/60 uppercase tracking-wide mb-1">
+                <Award className="w-6 h-6 text-sage-dark mb-3" />
+                <p className="text-sm text-charcoal-dark uppercase tracking-wide mb-1">
                   Featured
                 </p>
-                <p className="font-medium">The Rise Journey Speaker & Expert</p>
+                <p className="font-medium text-charcoal-dark">The Rise Journey Speaker & Expert</p>
               </div>
             </AnimatedSection>
           </div>
