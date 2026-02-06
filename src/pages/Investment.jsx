@@ -21,6 +21,7 @@ const services = [
     price: 'Starting at',
     unit: '$900',
     description: 'Half-day (3hrs) $900 | Full-day (6hrs) $1,800',
+    highlight: 'blush',
   },
   {
     name: 'Corporate Training',
@@ -101,6 +102,8 @@ export function Investment() {
                     className={`rounded-2xl p-8 h-full ${
                       service.featured
                         ? 'bg-sage text-white'
+                        : service.highlight === 'blush'
+                        ? 'bg-blush-light'
                         : 'bg-cream'
                     }`}
                   >
