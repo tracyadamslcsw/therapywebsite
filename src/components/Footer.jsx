@@ -14,7 +14,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="bg-charcoal-dark text-white/90">
+    <footer className="bg-chocolate text-white/90">
       <div className="container py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand & Contact */}
