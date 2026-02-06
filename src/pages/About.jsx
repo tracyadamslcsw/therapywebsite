@@ -179,6 +179,15 @@ export function About() {
                     EMDRIA Directory
                     <ExternalLink className="w-4 h-4" />
                   </a>
+                  <a
+                    href="https://ifs-institute.com/practitioners/all/186957"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-sage-dark font-medium hover:text-sage transition-colors"
+                  >
+                    IFS Institute
+                    <ExternalLink className="w-4 h-4" />
+                  </a>
                 </div>
               </div>
             </AnimatedSection>
