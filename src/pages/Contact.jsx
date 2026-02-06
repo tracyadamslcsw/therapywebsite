@@ -7,7 +7,6 @@ import {
   Calendar,
   MessageCircle,
   ArrowRight,
-  Download,
   CheckCircle,
 } from 'lucide-react'
 import { SEO, AnimatedSection, Layout } from '../components'
@@ -315,7 +314,7 @@ export function Contact() {
                   ))}
                 </ul>
 
-                <div className="bg-charcoal/10 rounded-xl p-6 mb-6">
+                <div className="bg-charcoal/10 rounded-xl p-6">
                   <p className="text-charcoal-dark font-medium">
                     48-Hour Consultation Promise
                   </p>
@@ -323,14 +322,6 @@ export function Contact() {
                     Your referrals will hear back within 2 business days.
                   </p>
                 </div>
-
-                <a
-                  href="#"
-                  className="btn bg-charcoal-dark text-white hover:bg-charcoal inline-flex items-center gap-2"
-                >
-                  <Download className="w-4 h-4" />
-                  Download Referral Information
-                </a>
               </div>
             </AnimatedSection>
           </div>
