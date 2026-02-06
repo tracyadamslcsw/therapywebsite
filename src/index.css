@@ -85,6 +85,16 @@ a:hover {
   color: var(--color-sage);
 }
 
+/* Footer links should be black, not sage green */
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
 /* Button Base */
 .btn {
   display: inline-flex;
