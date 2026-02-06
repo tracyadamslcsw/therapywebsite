@@ -21,7 +21,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             <Link
               to="/"
-              className="font-serif text-2xl font-medium text-black hover:text-sage-dark transition-colors"
+              className="font-serif text-2xl font-medium text-black hover:underline transition-colors"
             >
               Tracy Adams, LCSW
             </Link>
@@ -32,34 +32,34 @@ export function Footer() {
             <div className="mt-6 space-y-3">
               <a
                 href="tel:+17192039670"
-                className="flex items-center gap-3 text-lg font-medium text-black hover:text-sage-dark transition-colors"
+                className="flex items-center gap-3 text-lg font-medium text-black hover:underline transition-colors"
               >
-                <Phone className="h-5 w-5 text-sage-dark" />
+                <Phone className="h-5 w-5 text-black" />
                 (719) 203-9670
               </a>
               <a
                 href="mailto:hello@tracyadamslcsw.com"
-                className="flex items-center gap-3 text-black hover:text-sage-dark transition-colors"
+                className="flex items-center gap-3 text-black hover:underline transition-colors"
               >
-                <Mail className="h-5 w-5 text-sage-dark" />
+                <Mail className="h-5 w-5 text-black" />
                 hello@tracyadamslcsw.com
               </a>
               <a
                 href="https://www.psychologytoday.com/profile/966823"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 text-black hover:text-sage-dark transition-colors"
+                className="flex items-center gap-3 text-black hover:underline transition-colors"
               >
-                <ExternalLink className="h-5 w-5 text-sage-dark" />
+                <ExternalLink className="h-5 w-5 text-black" />
                 Psychology Today Profile
               </a>
               <a
                 href="https://www.therisejourney.com/team/tracy-adams"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 text-black hover:text-sage-dark transition-colors"
+                className="flex items-center gap-3 text-black hover:underline transition-colors"
               >
-                <ExternalLink className="h-5 w-5 text-sage-dark" />
+                <ExternalLink className="h-5 w-5 text-black" />
                 The Rise Journey
               </a>
             </div>
@@ -75,7 +75,7 @@ export function Footer() {
                 <li key={link.name}>
                   <Link
                     to={link.href}
-                    className="text-black hover:text-sage-dark transition-colors"
+                    className="text-black hover:underline transition-colors"
                   >
                     {link.name}
                   </Link>
@@ -91,19 +91,19 @@ export function Footer() {
             </h4>
             <ul className="space-y-2 text-black">
               <li className="flex items-start gap-2">
-                <MapPin className="h-4 w-4 mt-1 text-sage-dark flex-shrink-0" />
+                <MapPin className="h-4 w-4 mt-1 text-black flex-shrink-0" />
                 <span>1563 Gilpin St, Denver, CO 80218</span>
               </li>
               <li className="flex items-start gap-2">
-                <MapPin className="h-4 w-4 mt-1 text-sage-dark flex-shrink-0" />
+                <MapPin className="h-4 w-4 mt-1 text-black flex-shrink-0" />
                 <span>California (Telehealth)</span>
               </li>
               <li className="flex items-start gap-2">
-                <MapPin className="h-4 w-4 mt-1 text-sage-dark flex-shrink-0" />
+                <MapPin className="h-4 w-4 mt-1 text-black flex-shrink-0" />
                 <span>Colorado (Telehealth)</span>
               </li>
               <li className="flex items-start gap-2">
-                <MapPin className="h-4 w-4 mt-1 text-sage-dark flex-shrink-0" />
+                <MapPin className="h-4 w-4 mt-1 text-black flex-shrink-0" />
                 <span>Florida (Telehealth)</span>
               </li>
             </ul>
@@ -111,13 +111,13 @@ export function Footer() {
         </div>
 
         {/* Crisis Resources */}
-        <div className="mt-12 pt-8 border-t border-charcoal/20">
+        <div className="mt-12 pt-8 border-t border-black/20">
           <p className="text-black text-sm text-center md:text-left">
             <strong>Crisis Resources:</strong> If you
             are in crisis, please call{' '}
             <a
               href="tel:988"
-              className="text-sage-dark hover:text-sage font-medium"
+              className="text-black hover:underline font-medium"
             >
               988
             </a>{' '}
@@ -126,7 +126,7 @@ export function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="mt-8 pt-8 border-t border-charcoal/20 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="mt-8 pt-8 border-t border-black/20 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-black text-sm">
             &copy; {currentYear} Tracy Adams, LCSW. All rights reserved.
           </p>
