@@ -13,7 +13,7 @@ const services = [
     name: 'Individual Therapy',
     price: '$200',
     unit: 'per session',
-    description: '50-minute sessions, in-person or telehealth',
+    description: '50-minute sessions $200 | 90-minute sessions $320',
     featured: true,
   },
   {
