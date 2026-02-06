@@ -103,7 +103,7 @@ export function Investment() {
                       service.featured
                         ? 'bg-sage text-white'
                         : service.highlight === 'blush'
-                        ? 'bg-blush-light'
+                        ? 'bg-blush border-2 border-terracotta/30'
                         : 'bg-cream'
                     }`}
                   >
