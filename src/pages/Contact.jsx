@@ -290,15 +290,15 @@ export function Contact() {
         <div className="container">
           <div className="max-w-3xl mx-auto">
             <AnimatedSection>
-              <div className="bg-chocolate rounded-2xl p-8 md:p-10 text-charcoal">
+              <div className="bg-chocolate rounded-2xl p-8 md:p-10 text-charcoal-dark">
                 <h2 className="font-serif text-charcoal-dark mb-6">For Referrers</h2>
 
-                <p className="text-charcoal mb-6">
+                <p className="text-charcoal-dark mb-6">
                   If you're a therapist, physician, or other professional
                   looking to refer a client:
                 </p>
 
-                <p className="text-charcoal mb-4">
+                <p className="text-charcoal-dark mb-4">
                   I specialize in EMDR and IFS for adults struggling with:
                 </p>
 
@@ -310,7 +310,7 @@ export function Contact() {
                   ].map((item, index) => (
                     <li key={index} className="flex items-center gap-3">
                       <CheckCircle className="w-5 h-5 text-sage-dark" />
-                      <span className="text-charcoal">{item}</span>
+                      <span className="text-charcoal-dark">{item}</span>
                     </li>
                   ))}
                 </ul>
@@ -319,7 +319,7 @@ export function Contact() {
                   <p className="text-charcoal-dark font-medium">
                     48-Hour Consultation Promise
                   </p>
-                  <p className="text-charcoal-light text-sm mt-1">
+                  <p className="text-charcoal-dark text-sm mt-1">
                     Your referrals will hear back within 2 business days.
                   </p>
                 </div>
