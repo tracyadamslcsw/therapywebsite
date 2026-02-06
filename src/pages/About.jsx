@@ -13,7 +13,7 @@ import { SEO, AnimatedSection, Layout } from '../components'
 const credentials = [
   'Licensed Clinical Social Worker (LCSW)',
   'CA LCSW #84673 | CO CSW #09928191 | FL Telehealth Provider #TPSW2018',
-  'EMDR Trained (EMDRIA Member)',
+  'EMDR Level 1 Trained (EMDRIA Member)',
   'IFS Level 1 Trained (Internal Family Systems Institute)',
   'Speaker & Wellness Expert, The Rise Journey and Marino Wellness',
   '15+ years in the mental health field',
