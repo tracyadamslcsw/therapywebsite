@@ -85,6 +85,11 @@ a:hover {
   color: var(--color-sage);
 }
 
+/* Keep white links white on hover (for links on colored backgrounds) */
+a.text-white:hover {
+  color: white;
+}
+
 /* Footer links should be black, not sage green */
 footer a {
   color: black;
