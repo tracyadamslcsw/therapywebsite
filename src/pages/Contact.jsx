@@ -150,18 +150,15 @@ export function Contact() {
 
                   {/* Contact Form */}
                   <form
-                    name="consultation"
+                    action="https://formsubmit.co/hello@tracyadamslcsw.com"
                     method="POST"
-                    data-netlify="true"
-                    netlify-honeypot="bot-field"
                     className="space-y-4"
                   >
-                    <input type="hidden" name="form-name" value="consultation" />
-                    <p className="hidden">
-                      <label>
-                        Don't fill this out: <input name="bot-field" />
-                      </label>
-                    </p>
+                    {/* FormSubmit configuration */}
+                    <input type="hidden" name="_subject" value="New Consultation Request from Website" />
+                    <input type="hidden" name="_captcha" value="true" />
+                    <input type="hidden" name="_next" value="https://www.tracyadamslcsw.com/contact?submitted=true" />
+                    <input type="text" name="_honey" style={{ display: 'none' }} />
 
                     <div>
                       <label htmlFor="name" className="block text-sm font-medium text-charcoal-dark mb-2">
