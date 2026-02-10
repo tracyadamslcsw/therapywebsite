@@ -157,7 +157,7 @@ export function Contact() {
                     {/* FormSubmit configuration */}
                     <input type="hidden" name="_subject" value="New Consultation Request from Website" />
                     <input type="hidden" name="_captcha" value="true" />
-                    <input type="hidden" name="_next" value="https://www.tracyadamslcsw.com/contact?submitted=true" />
+                    <input type="hidden" name="_next" value="https://www.tracyadamslcsw.com/" />
                     <input type="text" name="_honey" style={{ display: 'none' }} />
 
                     <div>
