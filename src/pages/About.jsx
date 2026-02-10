@@ -26,6 +26,7 @@ export function About() {
         title="About Tracy Adams | EMDR Therapist Denver"
         description="Meet Tracy Adams, LCSW - a people-pleaser and perfectionist in recovery. EMDR and IFS therapy for high-achieving men and women in Denver, Colorado."
         keywords="Tracy Adams LCSW, EMDR therapist Denver, IFS therapist Colorado, about Tracy Adams, Denver therapist"
+        path="/about"
       />
 
       {/* Hero Section */}

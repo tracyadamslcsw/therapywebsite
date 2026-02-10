@@ -25,6 +25,7 @@ export function Contact() {
         title="Contact | Tracy Adams, LCSW | Book a Consultation"
         description="Book a free 15-minute consultation with Tracy Adams, LCSW. EMDR therapy in Denver and telehealth for California, Colorado, and Florida."
         keywords="contact Tracy Adams, book therapy consultation, EMDR consultation Denver, therapy appointment"
+        path="/contact"
       />
 
       {/* Hero Section */}

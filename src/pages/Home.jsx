@@ -19,6 +19,7 @@ export function Home() {
         title="Tracy Adams, LCSW | EMDR Therapist Denver"
         description="EMDR and IFS therapy for high-achieving men and women in Denver, Colorado, California, and Florida. Stop people-pleasing. Start living. Book a free consultation."
         keywords="EMDR therapy Denver, EMDR therapist Colorado, IFS therapy, people pleasing therapy, anxiety therapist Denver, trauma therapy, perfectionism therapy"
+        path="/"
       />
 
       {/* Hero Section */}

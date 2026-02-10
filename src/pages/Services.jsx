@@ -109,6 +109,7 @@ export function Services() {
         title="Services | Tracy Adams, LCSW"
         description="EMDR therapy, IFS therapy, therapy intensives, and corporate training for high-achieving men and women. Individual therapy starting at $200/session."
         keywords="EMDR therapy services, IFS therapy, therapy intensives, group therapy, corporate wellness training Denver"
+        path="/services"
       />
 
       {/* Hero Section */}

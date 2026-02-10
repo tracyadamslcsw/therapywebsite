@@ -121,6 +121,7 @@ export function EMDR() {
         title="EMDR Therapy Denver, Colorado | Tracy Adams, LCSW"
         description="EMDR therapy in Denver, Colorado. Heal trauma faster than talk therapy alone. Licensed in CO, CA, and FL. Book a free consultation."
         keywords="EMDR therapy Denver, EMDR therapist Colorado, EMDR trauma therapy, eye movement therapy, trauma treatment Denver"
+        path="/emdr"
       />
 
       {/* FAQ Schema */}
