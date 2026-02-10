@@ -68,7 +68,7 @@ export function Contact() {
                       </p>
                       <a
                         href="tel:+17192039670"
-                        className="text-2xl md:text-3xl font-bold text-white"
+                        className="text-2xl md:text-3xl font-bold text-white hover:text-white"
                       >
                         (719) 203-9670
                       </a>
