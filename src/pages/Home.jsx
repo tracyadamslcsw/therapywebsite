@@ -16,9 +16,9 @@ export function Home() {
   return (
     <Layout>
       <SEO
-        title="Tracy Adams, LCSW | EMDR Therapist Denver"
-        description="EMDR and IFS therapy for high-achieving men and women in Denver, Colorado, California, and Florida. Stop people-pleasing. Start living. Book a free consultation."
-        keywords="EMDR therapy Denver, EMDR therapist Colorado, IFS therapy, people pleasing therapy, anxiety therapist Denver, trauma therapy, perfectionism therapy"
+        title="Therapist in Denver | EMDR Therapist & IFS Therapist | Tracy Adams, LCSW"
+        description="Looking for a therapist in Denver? Tracy Adams offers EMDR therapy and IFS therapy for anxiety, trauma, and people-pleasing. Licensed in CO, CA, FL. Book a free consultation."
+        keywords="therapist in Denver, therapist Denver, EMDR therapist, EMDR therapist Denver, IFS therapist, IFS therapist Denver, EMDR therapy Denver, IFS therapy Denver, anxiety therapist Denver, trauma therapist Denver"
         path="/"
       />
 

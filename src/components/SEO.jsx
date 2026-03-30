@@ -4,8 +4,8 @@ const BASE_URL = 'https://www.tracyadamslcsw.com'
 
 export function SEO({
   title = 'Tracy Adams, LCSW',
-  description = 'EMDR and IFS therapy for high-achieving men and women in Denver, Colorado, California, and Florida. Stop people-pleasing. Start living.',
-  keywords = 'EMDR therapy Denver, EMDR therapist Colorado, IFS therapy, people pleasing therapy, anxiety therapist Denver',
+  description = 'Looking for a therapist in Denver? Tracy Adams offers EMDR therapy and IFS therapy for anxiety, trauma, and people-pleasing. Licensed in CO, CA, FL.',
+  keywords = 'therapist in Denver, therapist Denver, EMDR therapist, IFS therapist, EMDR therapy Denver, IFS therapy Denver, anxiety therapist Denver',
   image = '/tracy-adams.png',
   path,
   type = 'website',

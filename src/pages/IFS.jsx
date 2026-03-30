@@ -98,9 +98,9 @@ export function IFS() {
   return (
     <Layout>
       <SEO
-        title="IFS Therapy Denver, Colorado | Internal Family Systems | Tracy Adams, LCSW"
-        description="IFS therapy (Internal Family Systems) in Denver, Colorado. Heal your inner critic, understand your parts, and reconnect with your authentic Self. Licensed in CO, CA, and FL."
-        keywords="IFS therapy Denver, Internal Family Systems Colorado, parts work therapy, inner critic therapy, IFS therapist Denver"
+        title="IFS Therapist Denver | Internal Family Systems Therapy | Tracy Adams, LCSW"
+        description="Looking for an IFS therapist in Denver? Tracy Adams provides Internal Family Systems therapy for people-pleasing, perfectionism, and inner critic work. Book a free consultation."
+        keywords="IFS therapist, IFS therapist Denver, IFS therapist Colorado, Internal Family Systems therapist, IFS therapy Denver, Internal Family Systems therapy Denver, parts work therapist, inner critic therapy"
         path="/ifs"
       />
 
