@@ -145,7 +145,7 @@ export function Services() {
                 <img
                   src="/tracyphoto4.jpg"
                   alt="Tracy Adams, LCSW"
-                  className="w-full aspect-[4/5] object-cover object-top"
+                  className="w-full"
                 />
               </div>
             </AnimatedSection>

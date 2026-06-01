@@ -103,7 +103,7 @@ export function Contact() {
                   <img
                     src="/tracyphoto3.jpg"
                     alt="Tracy Adams, therapist in Denver"
-                    className="w-full aspect-[3/4] object-cover object-top"
+                    className="w-full"
                   />
                 </div>
 
