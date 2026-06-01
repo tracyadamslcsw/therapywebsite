@@ -136,6 +136,21 @@ export function Services() {
         </div>
       </section>
 
+      {/* Tracy Photo */}
+      <section className="py-12 bg-white">
+        <div className="container">
+          <AnimatedSection className="max-w-md mx-auto">
+            <div className="rounded-2xl overflow-hidden">
+              <img
+                src="/tracyphoto4.jpg"
+                alt="Tracy Adams, LCSW"
+                className="w-full aspect-[3/4] object-cover object-top"
+              />
+            </div>
+          </AnimatedSection>
+        </div>
+      </section>
+
       {/* Services Grid */}
       <section className="section bg-white pt-0">
         <div className="container">
