@@ -230,6 +230,21 @@ export function Investment() {
         </div>
       </section>
 
+      {/* Tracy Photo */}
+      <section className="section bg-white pb-0">
+        <div className="container">
+          <AnimatedSection className="max-w-md mx-auto">
+            <div className="rounded-2xl overflow-hidden">
+              <img
+                src="/tracyphoto4.jpg"
+                alt="Tracy Adams, LCSW"
+                className="w-full aspect-[3/4] object-cover object-top"
+              />
+            </div>
+          </AnimatedSection>
+        </div>
+      </section>
+
       {/* Good Fit Callout */}
       <section className="section bg-white">
         <div className="container">
