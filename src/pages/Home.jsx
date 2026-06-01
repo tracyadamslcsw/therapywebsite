@@ -205,13 +205,12 @@ export function Home() {
             </AnimatedSection>
 
             <AnimatedSection delay={0.2} direction="left">
-              <div className="bg-cream-dark rounded-2xl p-8 md:p-12">
-                <p className="text-xl text-charcoal leading-relaxed">
-                  You've done the self-help books. You've tried talk therapy.
-                </p>
-                <p className="text-2xl font-serif text-charcoal-dark mt-4 italic">
-                  You're ready for something that actually works.
-                </p>
+              <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-medium">
+                <img
+                  src="/tracyphoto1.jpg"
+                  alt="Tracy Adams, LCSW - Therapist in Denver"
+                  className="w-full h-full object-cover object-center"
+                />
               </div>
             </AnimatedSection>
           </div>

@@ -98,8 +98,17 @@ export function Contact() {
                   </div>
                 </div>
 
+                {/* Tracy Photo */}
+                <div className="rounded-xl overflow-hidden mb-8">
+                  <img
+                    src="/tracyphoto3.jpg"
+                    alt="Tracy Adams working at her desk"
+                    className="w-full h-48 object-cover object-top"
+                  />
+                </div>
+
                 {/* Location */}
-                <h3 className="font-serif text-xl text-charcoal-dark mb-4 mt-10">
+                <h3 className="font-serif text-xl text-charcoal-dark mb-4">
                   Location
                 </h3>
                 <div className="space-y-4">
