@@ -8,6 +8,7 @@ import {
   Check,
   MapPin,
   Award,
+  Cloud,
 } from 'lucide-react'
 import { SEO, AnimatedSection, Layout } from '../components'
 import { cn } from '../lib/utils'
@@ -16,9 +17,9 @@ export function Home() {
   return (
     <Layout>
       <SEO
-        title="Therapist in Denver | EMDR Therapist & IFS Therapist | Tracy Adams, LCSW"
-        description="Looking for a therapist in Denver? Tracy Adams offers EMDR therapy and IFS therapy for anxiety, trauma, and people-pleasing. Licensed in CO, CA, FL. Book a free consultation."
-        keywords="therapist in Denver, therapist Denver, EMDR therapist, EMDR therapist Denver, IFS therapist, IFS therapist Denver, EMDR therapy Denver, IFS therapy Denver, anxiety therapist Denver, trauma therapist Denver"
+        title="Therapist in Denver | EMDR Therapist & Grief Therapist | Tracy Adams, LCSW"
+        description="Looking for a therapist in Denver? Tracy Adams offers EMDR therapy for trauma, grief, anxiety, and people-pleasing. Specializing in traumatic loss. Licensed in CO, CA, FL."
+        keywords="therapist in Denver, therapist Denver, EMDR therapist, grief therapist Denver, grief counseling Denver, traumatic loss therapist, EMDR therapy Denver, IFS therapy Denver, anxiety therapist Denver, trauma therapist Denver"
         path="/"
       />
 
@@ -50,8 +51,8 @@ export function Home() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-xl md:text-2xl text-charcoal-light mb-10 leading-relaxed"
             >
-              EMDR & IFS therapy for high-achieving men and women who are successful
-              on paper but exhausted inside.
+              EMDR therapy for trauma, grief, anxiety, and the patterns that keep
+              you stuck.
             </motion.p>
 
             <motion.div
@@ -106,7 +107,7 @@ export function Home() {
             <h2 className="font-serif text-charcoal-dark">The Approach</h2>
           </AnimatedSection>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Card 1: EMDR */}
             <AnimatedSection delay={0.1}>
               <div className="card h-full">
@@ -143,7 +144,7 @@ export function Home() {
                   self-criticize — and learn to lead from your authentic Self.
                 </p>
                 <Link
-                  to="/services"
+                  to="/ifs"
                   className="inline-flex items-center gap-2 text-sage-dark font-medium hover:gap-3 transition-all"
                 >
                   Learn More <ArrowRight className="w-4 h-4" />
@@ -151,8 +152,30 @@ export function Home() {
               </div>
             </AnimatedSection>
 
-            {/* Card 3: Tracy */}
+            {/* Card 3: Grief */}
             <AnimatedSection delay={0.3}>
+              <div className="card h-full">
+                <div className="w-14 h-14 rounded-xl bg-blush flex items-center justify-center mb-6">
+                  <Cloud className="w-7 h-7 text-terracotta-dark" />
+                </div>
+                <h3 className="font-serif text-xl text-charcoal-dark mb-4">
+                  Grief & Loss
+                </h3>
+                <p className="text-charcoal-light mb-6">
+                  Specialized support for anticipatory grief, sudden loss, and
+                  the death of a child. You don't have to carry this alone.
+                </p>
+                <Link
+                  to="/grief"
+                  className="inline-flex items-center gap-2 text-sage-dark font-medium hover:gap-3 transition-all"
+                >
+                  Learn More <ArrowRight className="w-4 h-4" />
+                </Link>
+              </div>
+            </AnimatedSection>
+
+            {/* Card 4: Tracy */}
+            <AnimatedSection delay={0.4}>
               <div className="card h-full bg-blush-light border-0">
                 <div className="w-14 h-14 rounded-xl bg-white flex items-center justify-center mb-6">
                   <Sparkles className="w-7 h-7 text-terracotta" />
@@ -161,8 +184,7 @@ export function Home() {
                   A Therapist Who Gets It
                 </h3>
                 <p className="text-charcoal-light mb-6 italic">
-                  "I'm a people-pleaser and perfectionist in recovery. I don't
-                  just understand this clinically — I've lived it."
+                  "I don't just understand this clinically — I've lived it."
                 </p>
                 <Link
                   to="/about"
@@ -182,16 +204,16 @@ export function Home() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <AnimatedSection>
               <h2 className="font-serif text-charcoal-dark mb-8">
-                I work with high-achieving men and women who are tired of...
+                I work with people who are...
               </h2>
               <ul className="space-y-4">
                 {[
-                  'Saying yes when they mean no',
-                  "Feeling responsible for everyone else's emotions",
-                  'Never feeling "good enough" despite their success',
-                  "Anxiety that won't respond to traditional approaches",
-                  "Knowing what to do but not being able to change",
-                  "Not having healthy boundaries",
+                  'Grieving the loss of someone they love',
+                  'Exhausted from people-pleasing and perfectionism',
+                  "Carrying anxiety that won't respond to traditional approaches",
+                  'Processing trauma from the past or present',
+                  'Navigating a terminal diagnosis (their own or a loved one\'s)',
+                  'Ready for therapy that actually changes things',
                 ].map((item, index) => (
                   <li
                     key={index}
@@ -260,7 +282,7 @@ export function Home() {
         <div className="container text-center">
           <AnimatedSection>
             <h2 className="font-serif text-white mb-6">
-              Ready to stop managing everyone else's life?
+              Ready to start healing?
             </h2>
             <p className="text-xl text-white/90 max-w-2xl mx-auto mb-10">
               Book a free 15-minute consultation. We'll talk about what's
