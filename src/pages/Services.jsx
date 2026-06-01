@@ -136,26 +136,68 @@ export function Services() {
         </div>
       </section>
 
-      {/* Tracy Photo */}
-      <section className="py-12 bg-white">
+      {/* Individual Therapy with Photo */}
+      <section className="section bg-white pt-0">
         <div className="container">
-          <AnimatedSection className="max-w-md mx-auto">
-            <div className="rounded-2xl overflow-hidden">
-              <img
-                src="/tracyphoto4.jpg"
-                alt="Tracy Adams, LCSW"
-                className="w-full aspect-[3/4] object-cover object-top"
-              />
-            </div>
-          </AnimatedSection>
+          <div className="grid lg:grid-cols-2 gap-12 items-center mb-12">
+            <AnimatedSection>
+              <div className="rounded-2xl overflow-hidden">
+                <img
+                  src="/tracyphoto4.jpg"
+                  alt="Tracy Adams, LCSW"
+                  className="w-full aspect-[4/5] object-cover object-top"
+                />
+              </div>
+            </AnimatedSection>
+            <AnimatedSection delay={0.1}>
+              <div className="bg-blush-light border-2 border-blush rounded-2xl p-8 md:p-10">
+                <span className="inline-block mb-4 px-3 py-1 bg-terracotta/20 text-terracotta-dark text-sm rounded-full">
+                  Most Popular
+                </span>
+                <h2 className="font-serif text-2xl text-charcoal-dark mb-4">
+                  Individual Therapy
+                </h2>
+                <p className="text-lg text-charcoal mb-6">
+                  For high-achieving men and women ready to stop people-pleasing and start living authentically.
+                </p>
+                <ul className="space-y-3 mb-6">
+                  <li className="flex items-start gap-2 text-charcoal-light">
+                    <Check className="w-5 h-5 text-sage mt-0.5 flex-shrink-0" />
+                    Process trauma and stuck memories
+                  </li>
+                  <li className="flex items-start gap-2 text-charcoal-light">
+                    <Check className="w-5 h-5 text-sage mt-0.5 flex-shrink-0" />
+                    Understand your "parts" (the perfectionist, the people-pleaser, the critic)
+                  </li>
+                  <li className="flex items-start gap-2 text-charcoal-light">
+                    <Check className="w-5 h-5 text-sage mt-0.5 flex-shrink-0" />
+                    Set boundaries without guilt
+                  </li>
+                  <li className="flex items-start gap-2 text-charcoal-light">
+                    <Check className="w-5 h-5 text-sage mt-0.5 flex-shrink-0" />
+                    Build a relationship with your authentic Self
+                  </li>
+                </ul>
+                <p className="text-charcoal-light text-sm mb-6">
+                  50-minute sessions | In-person (Denver) or Telehealth (CA, CO, FL)
+                </p>
+                <p className="text-charcoal-dark font-medium mb-6">
+                  Starting at $200/session
+                </p>
+                <Link to="/contact" className="btn btn-primary">
+                  Book a Consultation <ArrowRight className="w-4 h-4 ml-2" />
+                </Link>
+              </div>
+            </AnimatedSection>
+          </div>
         </div>
       </section>
 
-      {/* Services Grid */}
+      {/* Other Services */}
       <section className="section bg-white pt-0">
         <div className="container">
           <div className="space-y-12">
-            {services.map((service, index) => (
+            {services.filter(s => !s.featured).map((service, index) => (
               <AnimatedSection key={service.title} delay={index * 0.1}>
                 <div
                   className={`rounded-2xl p-8 md:p-10 ${
