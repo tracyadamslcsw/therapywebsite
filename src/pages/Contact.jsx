@@ -22,9 +22,9 @@ export function Contact() {
   return (
     <Layout>
       <SEO
-        title="Contact | Tracy Adams, LCSW | Book a Consultation"
-        description="Book a free 15-minute consultation with Tracy Adams, LCSW. EMDR therapy in Denver and telehealth for California, Colorado, and Florida."
-        keywords="contact Tracy Adams, book therapy consultation, EMDR consultation Denver, therapy appointment"
+        title="Contact Denver Therapist | Book Free Consultation | Tracy Adams, LCSW"
+        description="Book a free 15-minute consultation with Tracy Adams, LCSW. EMDR therapist and IFS therapist in Denver. Telehealth available for CA, CO, and FL."
+        keywords="contact therapist Denver, book therapy consultation Denver, EMDR therapist consultation, IFS therapist Denver, free therapy consultation"
         path="/contact"
       />
 
