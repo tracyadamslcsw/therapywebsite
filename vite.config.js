@@ -17,6 +17,7 @@ export default defineConfig({
         '/services',
         '/emdr',
         '/ifs',
+        '/grief',
         '/investment',
         '/contact',
       ],
