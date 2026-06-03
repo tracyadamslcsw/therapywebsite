@@ -101,7 +101,7 @@ export function Contact() {
                 {/* Tracy Photo */}
                 <div className="rounded-xl overflow-hidden mb-8">
                   <img
-                    src="/tracyphoto3.jpg"
+                    src="/tracyphoto6.jpg"
                     alt="Tracy Adams, therapist in Denver"
                     className="w-full"
                   />
