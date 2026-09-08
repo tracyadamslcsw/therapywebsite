@@ -93,7 +93,7 @@ export function Grief() {
       <SEO
         title="Grief Therapist Denver | Traumatic Loss Therapy | Tracy Adams, LCSW"
         description="Grief therapy for anticipatory grief, sudden loss, and loss of a child. Specialized support for traumatic loss in Denver. EMDR and IFS trained. Book a free consultation."
-        keywords="grief therapist Denver, grief counseling Denver, traumatic loss therapy, child loss therapist, anticipatory grief, bereavement counseling, grief therapy Colorado"
+        keywords="grief therapist Denver, grief counseling Denver, traumatic loss therapy, child loss therapist, anticipatory grief therapy, bereavement counseling Denver, grief therapy Colorado, grief therapy for parents, sudden loss counseling Denver, bereavement therapy Denver, grief therapist near me, therapist for loss of a child"
         path="/grief"
       />
 

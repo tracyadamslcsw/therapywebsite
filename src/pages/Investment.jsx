@@ -65,7 +65,7 @@ export function Investment() {
       <SEO
         title="Investment & Fees | Tracy Adams, LCSW"
         description="Therapy investment and fees for Tracy Adams, LCSW. Individual therapy starting at $200/session. Information about insurance, superbills, and payment options."
-        keywords="therapy cost Denver, EMDR therapy fees, IFS therapy cost, therapy investment, out of network therapy"
+        keywords="therapy cost Denver, EMDR therapy fees, IFS therapy cost, grief therapy cost, therapy investment, out of network therapy Denver, therapy fees Denver, superbill therapy, HSA FSA therapy Denver"
         path="/investment"
       />
 

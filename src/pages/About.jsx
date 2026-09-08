@@ -25,7 +25,7 @@ export function About() {
       <SEO
         title="About Tracy Adams | EMDR Therapist & IFS Therapist Denver"
         description="Meet Tracy Adams, LCSW - EMDR therapist and IFS therapist in Denver, Colorado. Specializing in anxiety, trauma, and people-pleasing. Licensed in CO, CA, FL."
-        keywords="Tracy Adams LCSW, EMDR therapist Denver, IFS therapist Denver, therapist Denver, Denver therapist, anxiety therapist Denver, trauma therapist Denver"
+        keywords="Tracy Adams LCSW, EMDR therapist Denver, IFS therapist Denver, therapist Denver, Denver therapist, anxiety therapist Denver, trauma therapist Denver, therapist accepting new clients Denver, therapist for high achievers Denver, people pleasing therapy Denver, perfectionism therapist Denver"
         path="/about"
       />
 

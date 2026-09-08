@@ -108,7 +108,7 @@ export function Services() {
       <SEO
         title="Therapy Services Denver | EMDR & IFS Therapy | Tracy Adams, LCSW"
         description="EMDR therapy, IFS therapy, and therapy intensives in Denver. Individual therapy for anxiety, trauma, and people-pleasing. Starting at $200/session. Book a free consultation."
-        keywords="therapy services Denver, EMDR therapy Denver, IFS therapy Denver, therapy intensives, individual therapy Denver, trauma therapy Denver, anxiety therapy Denver"
+        keywords="therapy services Denver, EMDR therapy Denver, IFS therapy Denver, grief therapy Denver, therapy intensives, individual therapy Denver, trauma therapy Denver, anxiety therapy Denver, telehealth therapy Colorado California Florida, somatic therapy Denver, therapist accepting new clients Denver"
         path="/services"
       />
 

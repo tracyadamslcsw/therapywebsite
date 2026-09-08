@@ -24,7 +24,7 @@ export function Contact() {
       <SEO
         title="Contact Denver Therapist | Book Free Consultation | Tracy Adams, LCSW"
         description="Book a free 15-minute consultation with Tracy Adams, LCSW. EMDR therapist and IFS therapist in Denver. Telehealth available for CA, CO, and FL."
-        keywords="contact therapist Denver, book therapy consultation Denver, EMDR therapist consultation, IFS therapist Denver, free therapy consultation"
+        keywords="contact therapist Denver, book therapy consultation Denver, EMDR therapist consultation, IFS therapist Denver, free therapy consultation, therapist accepting new clients Denver, therapist near me Denver, book therapy Denver, telehealth therapist Colorado California Florida"
         path="/contact"
       />
 
