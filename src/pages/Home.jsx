@@ -19,7 +19,7 @@ export function Home() {
       <SEO
         title="Therapist in Denver | EMDR Therapist & Grief Therapist | Tracy Adams, LCSW"
         description="Looking for a therapist in Denver? Tracy Adams offers EMDR therapy for trauma, grief, anxiety, and people-pleasing. Specializing in traumatic loss. Licensed in CO, CA, FL."
-        keywords="therapist in Denver, therapist near me Denver, therapist Denver, EMDR therapist, grief therapist Denver, grief counseling Denver, traumatic loss therapist, EMDR therapy Denver, IFS therapy Denver, anxiety therapist Denver, trauma therapist Denver, telehealth therapist Colorado California Florida, high functioning anxiety therapist, therapist for high achievers Denver, therapist accepting new clients Denver, somatic therapy Denver"
+        keywords="therapist in Denver, therapist near me Denver, therapist Denver, EMDR therapist, grief therapist Denver, grief counseling Denver, traumatic loss therapist, EMDR therapy Denver, IFS therapy Denver, anxiety therapist Denver, trauma therapist Denver, telehealth therapist Colorado California Florida, high functioning anxiety therapist, therapist for high achievers Denver, therapist accepting new clients Denver"
         path="/"
       />
 

@@ -120,7 +120,7 @@ export function EMDR() {
       <SEO
         title="EMDR Therapist Denver | EMDR Therapy Colorado | Tracy Adams, LCSW"
         description="Looking for an EMDR therapist in Denver? Tracy Adams provides EMDR therapy for trauma, anxiety, and PTSD. Heal faster than talk therapy alone. Book a free consultation."
-        keywords="EMDR therapist, EMDR therapist Denver, EMDR therapist Colorado, EMDR therapy Denver, EMDR therapy Colorado, trauma therapist Denver, trauma therapist near me, PTSD therapist Denver, eye movement therapy, somatic EMDR Denver, EMDR telehealth Colorado California Florida"
+        keywords="EMDR therapist, EMDR therapist Denver, EMDR therapist Colorado, EMDR therapy Denver, EMDR therapy Colorado, trauma therapist Denver, trauma therapist near me, PTSD therapist Denver, eye movement therapy, EMDR telehealth Colorado California Florida"
         path="/emdr"
       />
 
