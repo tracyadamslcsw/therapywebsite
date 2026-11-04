@@ -160,15 +160,22 @@ export function Contact() {
 
                   {/* Contact Form */}
                   <form
-                    action="https://formsubmit.co/hello@tracyadamslcsw.com"
-                    method="POST"
+                    onSubmit={(e) => {
+                      e.preventDefault()
+                      const formData = new FormData(e.target)
+                      const name = formData.get('name')
+                      const email = formData.get('email')
+                      const phone = formData.get('phone') || 'Not provided'
+                      const message = formData.get('message')
+                      const state = formData.get('state')
+
+                      const subject = `New Consultation Request from ${name}`
+                      const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0APhone: ${phone}%0D%0AState: ${state}%0D%0A%0D%0AMessage:%0D%0A${message}`
+
+                      window.location.href = `mailto:hello@tracyadamslcsw.com?subject=${encodeURIComponent(subject)}&body=${body}`
+                    }}
                     className="space-y-4"
                   >
-                    {/* FormSubmit configuration */}
-                    <input type="hidden" name="_subject" value="New Consultation Request from Website" />
-                    <input type="hidden" name="_captcha" value="true" />
-                    <input type="hidden" name="_next" value="https://www.tracyadamslcsw.com/" />
-                    <input type="text" name="_honey" style={{ display: 'none' }} />
 
                     <div>
                       <label htmlFor="name" className="block text-sm font-medium text-charcoal-dark mb-2">
